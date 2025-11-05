@@ -5,7 +5,9 @@
 
 #!/bin/sh
 # change hostname to tomcat
-sudo hostnamectl set-hostname tomcat
+echo "Enter your server hostname:"
+read newhostname
+sudo hostname $newhostname
 cd /opt 
 # install Java JDK 1.8+ as a pre-requisit for tomcat to run.
 sudo yum install git wget -y
