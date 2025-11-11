@@ -24,3 +24,5 @@ sudo systemctl start jenkins
 sudo systemctl status jenkins
 sudo su - ec2-user
 echo "echo of jenkins installation"
+
+# jenkins diytails are found /var/lib/jenkins/secrets/initialAdminPassword
